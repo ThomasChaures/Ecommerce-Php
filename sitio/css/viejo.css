@@ -1,0 +1,670 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    scroll-behavior: smooth;
+    color: #3a3227;
+    font-family: 'Albert Sans', sans-serif;
+    line-height: 1.6;
+}
+
+
+.mensaje-exito {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.mensaje-error {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: "Lobster Two", sans-serif;
+} 
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Yellowtail&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ /*
+ .lobster-two-regular {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-two-regular-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lobster-two-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lobster-two-bold-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+ font-family: 'Albert Sans', sans-serif;
+ font-family: 'Yellowtail', cursive;
+
+ */
+.tituloFooter{
+    font-family: 'Yellowtail', cursive;
+    font-size: 1.7em;
+}
+
+#formIndex{
+    height: 0 !important; 
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    margin-top:0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formIndex button{
+ background-color: rgba(255, 255, 255, 0) ;
+ color: bisque;
+ outline: none;
+ offset: none;
+ font-family: 'Albert Sans', sans-serif;
+ font-size: 1rem;
+ cursor: pointer;
+ border: none;
+}
+
+#bannerContacto{
+    background-image: url('../img/bannerContacto.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 10%;
+}
+
+
+.productosS{
+    height: 100vh;
+}
+
+.msg-c{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+.datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.datos ul{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#bSec{
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+#secBt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+#bCon{
+    height: 400px;
+ }
+
+#s2Cont{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+#cont span {
+    font-weight: bold;
+    color: bisque;
+}
+
+
+#bSec div p:nth-child(1){
+    font-size: 2.4rem;
+    font-family: "Lobster Two", sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#secPb{
+    font-size: 1.2rem;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    max-width: 420px;
+    margin-top: 10px;
+    font-style: normal;
+}
+#dest{
+    background-color: bisque;
+    padding: 20px;
+}
+
+h2{
+    padding-top: 50px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.3em;
+   
+}
+
+#sN{
+    height: 400px;
+    background-color: rgba(255, 228, 196, 0.767);
+}
+
+
+
+h1{
+    color: bisque;
+    padding-left: 60px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#brG{
+    background-color: #3a3227;
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 10% 50%;
+    user-select: none;
+    width: 240px;
+    padding: 10px;
+}
+
+#inDiv span{
+    font-weight: bold;
+}
+
+
+header {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+
+footer {
+    background-color: #3a3227;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.centerG{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+#inDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    color: #3a3227;
+}
+#login{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#login form div{
+    display: flex;
+    flex-direction: column;
+}
+#login form div input{
+    margin-bottom: 10px;
+    margin-top:10px;
+    min-width: 440px;
+}
+
+#register{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#tabla{
+    max-width: 400px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3a3227;
+    color: bisque;
+}
+
+input[hidden]{
+    display: none;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+#e-p{
+    height: 0 !important;
+    margin-top: 0 !important;
+}
+
+
+
+#register form div{
+    display: flex;
+    flex-direction: column;
+}
+#register form div input{
+    margin-bottom: 10px;
+    margin-top:10px;
+    min-width: 440px;
+}
+
+
+nav{
+    margin-top: 10px;
+    padding-right: 20px;
+    
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+nav ul li{
+    padding: 20px;
+    list-style: none;
+    min-width:130px ;
+    text-align: center;
+    
+}
+
+nav ul li a, #carritoEnvios ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 1rem;
+    width: 120px;
+    border-bottom: rgba(255, 228, 196, 0) solid 1px;
+    transition: 0.3ms ease-in-out;
+}
+
+#carritoEnvios ul{
+    display: flex;
+}
+
+
+#carritoEnvios ul li{
+    padding: 20px;
+}
+
+nav ul li a:hover{
+   border-bottom: bisque solid 1px;
+}
+
+.textos{
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 10px;
+}
+
+.cenT{
+    display: flex;
+    justify-content: center;
+}
+
+.full{
+    background-color: bisque;
+}
+
+
+#labs{
+    display: flex;
+    justify-content: center;
+}
+
+.tit3{
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    padding-bottom: 20px;
+
+}
+.imgCard{
+   
+    max-width: 250px;
+}
+
+.card-size{
+    width: 100%;
+    max-width: 300px;
+    max-height: 376px;
+    height: 100%;
+
+}
+
+
+.fullP{
+    height: 84vh;
+}
+
+.dTails{
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+   
+     
+}
+
+.ajus{
+    padding-left: 30px;
+    width: 500px;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#bCon h2{
+    color: bisque;
+}
+#bCon p {
+    color: bisque;
+    font-size: 1.2rem;
+}
+
+h5{
+    font-size: 1em;
+}
+
+.pCard{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#contList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+
+
+.imgList{
+    
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    
+}
+
+#cL{
+    margin-bottom: 60px;
+}
+
+.card{
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.31);
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.31);
+}
+
+.button{
+    color: bisque;
+    background-color: #3a3227;
+    width: 200px;
+    height: 45px;
+    padding: 15px;
+    text-decoration: none;
+   text-align: center;
+    margin-bottom: 30px;
+    transition: 0.3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.buttonAlter:hover{
+    color: bisque;
+    background-color: #3a3227;
+    border: bisque solid 1px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+-webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+}
+
+.butClasAlter{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonAlter{
+    color: #3a3227;
+    background-color: bisque;
+    width: 200px;
+    height: 45px;
+    padding: 15px;
+    text-decoration: none;
+   text-align: center;
+    margin-bottom: 30px;
+    transition: 0.3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    color: #3a3227;
+    background-color: bisque;
+    border: #3a3227 solid 1px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+-webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+}
+
+.butClas{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.futC{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu li{
+   margin-left: 20px;
+   list-style: none;
+}
+
+.tF{
+    margin: 40px;
+}
+
+.tF a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.tF p{
+    color: bisque;
+}
+
+#formD{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #3a3227;
+    color: bisque;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #3a3227ad;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3a3227;
+    border-radius: 5px;
+}
+
+.mC{
+   padding: 20px;
+}
+
+#pDetails{
+    font-size: 1.3em;
+}
+
+input:focus{
+    outline: solid 4px #3a3227;
+    outline-offset: 2px;
+}
+
+textarea:focus{
+    outline: solid 4px #3a3227;
+    outline-offset: 2px;
+}
+
+input[type="submit"]{
+   font-size: 1em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.mExit{
+    font-size: 1.6rem;
+}
